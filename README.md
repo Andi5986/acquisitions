@@ -1,11 +1,35 @@
-# acquisitions
+# Valuation Model for M&A for Operational Departments
 The following model explains how to evaluate the conditions for growing an operational department organically or through mergers & acquisitions.
 The example is based on Lead Generation, which is at the top of the funnel for many service companies. 
 
-$$$
-\(V_i = \frac{Q_i}{C_i + T_i}\)
-$$$
+**For expanding the in-house team:**
 
+$$
+\(V_i = \frac{Q_i}{C_i + T_i}\)
+$$
+
+**For buying an external company:**
+
+$$
+\(V_e = \frac{Q_e \times (1 - R)}{C_e + T_e + D}\)
+$$
+
+Where: 
+
+- \(C_i\): Cost of expanding the in-house team
+- \(T_i\): Time to expand the in-house team
+- \(Q_i\): Increase in lead quality from expanding in-house team. Can be represented by the expected yearly revenue.
+- \(C_e\): Cost of buying an external company
+- \(T_e\): Time to integrate an external company
+- \(Q_e\): Increase in lead quality from external company. Can be represented by the expected yearly revenue.
+- \(D\): Distraction from main business
+- \(R\): Risk probability associated with the quality of leads from the external company. Represents the expected increase in lead quality from the external company, taking into account the risk probability. If the risk probability is high, this will reduce the expected increase in lead quality, and vice versa.
+
+$$ 
+Q_e \times (1 - R)
+$$
+
+**Variables:**
 
 1. **Cost of Expanding the In-House Team (C_i)**: This includes hiring and training new employees, the cost of the tools and software they will need, and the ongoing cost of salaries and benefits.
     
